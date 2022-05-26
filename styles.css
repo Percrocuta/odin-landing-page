@@ -68,3 +68,32 @@ button {
   font-size: 48px;
   font-weight: 900;
 }
+
+.middle {
+  text-align: center;
+}
+
+.middle .text {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  padding:40px;
+}
+
+.container-info {
+  display: flex;
+  justify-content: center;
+  gap:80px;
+}
+
+.container-info .info {
+  max-width: 140px;
+}
+
+.info-image {
+  width:140px;
+  height:140px;
+  border-radius: 8px;
+  border: 2px solid #3882F6; 
+  margin-bottom: 10px;
+}
